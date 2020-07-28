@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  background-position: center;
+  font-family: "Kreon", serif;
+}
+.container .mt-2 {
+  width: 320px;
+  height: 420px;
+  box-sizing: border-box;
+  background: #000000;
+  color: #0f0f0f;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  padding: 70px 30px;
+}
+#registrationForm input[type="text"],
+input[type="password"] {
+  border: none;
+  border-bottom: 1px solid #000000;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  font-size: 12px;
+  color: rgb(0, 0, 0);
+}
